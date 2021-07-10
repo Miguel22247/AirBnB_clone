@@ -63,13 +63,30 @@ button:hover {
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
 	list-style: none;
+	position: absolute;
+	width: 100%;
+	top: 70px;
 }
 
 .popover h2 {
 	font-size: 16px;
-	margin-left: 20px;
+	margin: auto;
 }
 
-.popover li.my_list {
+.popover ul {
+	list-style: none;
+	padding: 0.5em 0 1em 1em;
+	margin: 10px 0;
+}
+
+
+.popover ul .items {
 	margin-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.popover li {
+	margin-left: 10px;
+	margin: 0 0 0 5%;
 }
