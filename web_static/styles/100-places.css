@@ -116,8 +116,16 @@ margin: 20px 0 0 0;
 	margin-top: 40px;
 }
 
-.reviews ul {
+.reviews ul li{
 	list-style: none;
+}
+
+.reviews h3 {
+	font-size: 14px;
+}
+
+.reviews p {
+	font-size: 12px;
 }
 
 .tv_icon {
@@ -157,5 +165,4 @@ margin: 20px 0 0 0;
 	height: 50px;
 	margin-left: 25%;
 	margin-top: auto;
-
 }
