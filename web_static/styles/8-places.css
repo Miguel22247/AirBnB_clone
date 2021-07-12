@@ -70,7 +70,7 @@ article {
 }
 
 .max_guest p, .number_rooms p, .number_bathrooms p {
-	margin: auto 0px auto 10px;
+	margin: auto 0 auto 10px;
 }
 
 .guest_icon {
